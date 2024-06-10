@@ -1,34 +1,60 @@
-# Chess Engine
+# Parallel Chess Engine with Pygame
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Game Modes](#game-modes)
+- [Computer Move Generation](#computer-move-generation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 ## Introduction
-Welcome to the Chess Game! This project is a digital implementation of the classic board game chess, where two players compete to checkmate the opponent's king. The game is designed to be both a fun and educational experience, suitable for beginners and advanced players alike.
+This is a chess application built using Python and Pygame. It features both multiplayer mode and a mode to play against the computer. The application includes various functionalities to enhance the user experience, such as move highlighting, undo move, and more.
 
 ## Features
-- User-Friendly Interface: Intuitive design for easy navigation and gameplay.
-- Two-Player Mode: Play against another person locally.
-- AI Opponent: Challenge a computer opponent with varying levels of difficulty.
-- Move Validation: Ensures all moves are legal according to chess rules.
-- Undo Moves: Easily correct mistakes and try different strategies.
+1. **Piece Move Highlighting**: Highlights all possible moves for a selected piece.
+2. **Last Move Highlighting**: Highlights the last move made on the board.
+3. **Pawn Promotion**: Automatically prompts for pawn promotion when a pawn reaches the last rank.
+4. **Mouse Hover Highlighting**: Highlights the square under the mouse cursor.
+5. **Undo Move**: Press 'Z' to undo the last move.
+6. **Check Highlighting**: Highlights the king's square when in check.
+7. **Board Reset**: Press 'R' to reset the board to the initial position.
+8. **Castling**: Supports castling for both kingside and queenside.
+9. **En Passant**: Implements the en passant rule.
 
-## Rules of Chess
-Chess is a two-player strategy game played on an 8x8 board. Each player controls 16 pieces: one king, one queen, two rooks, two knights, two bishops, and eight pawns. The objective is to checkmate the opponent's king, meaning the king is under threat of capture with no legal moves to escape.
+## Installation
+1. **Clone the repository**
+    ```sh
+    git clone [https://github.com/yourusername/chess-pygame.git](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE.git)
+    cd PARALLEL-CHESS-ENGINE
+    ```
+2. **Install the dependencies**
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-## Basic Rules:
-1. Starting Position: The game begins with pieces arranged in a specific layout on the board.
-2. Turns: Players alternate turns, with White moving first.
-3. Piece Movement:
-    - Pawn: Moves forward one square, with the option to move two squares on its first move. Captures diagonally.
-    - Rook: Moves horizontally or vertically any number of squares.
-    - Knight: Moves in an L-shape: two squares in one direction and then one square perpendicular.
-    - Bishop: Moves diagonally any number of squares.
-    - Queen: Moves horizontally, vertically, or diagonally any number of squares.
-    - King: Moves one square in any direction.
-4. Special Moves:
-   - Castling: A move involving the king and a rook that has not yet moved.
-   - En Passant: A special pawn capture.
-   - Promotion: When a pawn reaches the far end of the board, it can be promoted to any other piece (except a king).
-5. Check and Checkmate: If a king is in a position to be captured (in check), it must move out of check. Checkmate occurs when a king is in check 
-     with no legal moves to escape.
+## Usage
+To start the application, run the following command:
+```sh
+python chessUIandMainFIle.py.
+```
+## Game Modes
+1. Multiplayer Mode: Allows two players to play against each other on the same device.
+2. Play with Computer: Play against an AI that uses the Minimax algorithm with optimizations like Alpha-Beta Pruning, Move Ordering, Beam Search, and Parallel Processing.
+
+## Computer Move Generation
+The computer moves are generated using the Minimax algorithm, enhanced with the following techniques:
+
+1. Alpha-Beta Pruning: Reduces the number of nodes evaluated by the Minimax algorithm.
+2. Move Ordering: Improves the efficiency of Alpha-Beta Pruning by evaluating the best moves first.
+3. Beam Search: Limits the number of moves considered at each depth level to optimize performance.
+4. Parallel Processing: Utilizes the multiprocessing library to evaluate moves in parallel, speeding up the computation.
+   
+## Acknowledgements
+Thanks to the Pygame community for providing an easy-to-use framework for game development.
 
 ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image.png)
 ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-1.png)
