@@ -2,10 +2,10 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
+-  [Game Modes](#game-modes)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Game Modes](#game-modes)
 - [Computer Move Generation](#computer-move-generation)
 - [Acknowledgements](#acknowledgements)
 
@@ -15,6 +15,12 @@ This is a chess application built using Python and Pygame. It features both mult
 :-------------------------:|:-------------------------:
 ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-2.png)|![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-10.png)
 
+
+## Game Modes
+1. **Multiplayer Mode**: Allows two players to play against each other on the same device.
+2. **Play with Computer**: Play against an AI that uses the Minimax algorithm with optimizations like Alpha-Beta Pruning, Move Ordering, Beam Search, and Parallel Processing.
+
+   
 ## Features
 1. **Piece Move Highlighting**: Highlights all possible moves for a selected piece.
 
@@ -62,9 +68,7 @@ To start the application, run the following command:
 ```sh
 python chessUIandMainFIle.py
 ```
-## Game Modes
-1. **Multiplayer Mode**: Allows two players to play against each other on the same device.
-2. **Play with Computer**: Play against an AI that uses the Minimax algorithm with optimizations like Alpha-Beta Pruning, Move Ordering, Beam Search, and Parallel Processing.
+
 
 ## Computer Move Generation
 The computer moves are generated using the Minimax algorithm, enhanced with the following techniques:
