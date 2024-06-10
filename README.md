@@ -40,16 +40,16 @@ To start the application, run the following command:
 python chessUIandMainFIle.py.
 ```
 ## Game Modes
-1. Multiplayer Mode: Allows two players to play against each other on the same device.
-2. Play with Computer: Play against an AI that uses the Minimax algorithm with optimizations like Alpha-Beta Pruning, Move Ordering, Beam Search, and Parallel Processing.
+1. **Multiplayer Mode**: Allows two players to play against each other on the same device.
+2. **Play with Computer**: Play against an AI that uses the Minimax algorithm with optimizations like Alpha-Beta Pruning, Move Ordering, Beam Search, and Parallel Processing.
 
 ## Computer Move Generation
 The computer moves are generated using the Minimax algorithm, enhanced with the following techniques:
 
-1. Alpha-Beta Pruning: Reduces the number of nodes evaluated by the Minimax algorithm.
-2. Move Ordering: Improves the efficiency of Alpha-Beta Pruning by evaluating the best moves first.
-3. Beam Search: Limits the number of moves considered at each depth level to optimize performance.
-4. Parallel Processing: Utilizes the multiprocessing library to evaluate moves in parallel, speeding up the computation.
+1. **Alpha-Beta Pruning**: Reduces the number of nodes evaluated by the Minimax algorithm.
+2. **Move Ordering**: Improves the efficiency of Alpha-Beta Pruning by evaluating the best moves first.
+3. **Beam Search**: Limits the number of moves considered at each depth level to optimize performance.
+4. **Parallel Processing**: Utilizes the multiprocessing library to evaluate moves in parallel, speeding up the computation.
    
 ## Acknowledgements
 Thanks to the Pygame community for providing an easy-to-use framework for game development.
