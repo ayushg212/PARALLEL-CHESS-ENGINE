@@ -17,15 +17,32 @@ This is a chess application built using Python and Pygame. It features both mult
 
 ## Features
 1. **Piece Move Highlighting**: Highlights all possible moves for a selected piece.
-   
+
+![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-3.png) |  ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-12.png)
+:-------------------------:|:-------------------------:
 3. **Last Move Highlighting**: Highlights the last move made on the board.
+
+![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-13.png) |  ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-14.png)
+:-------------------------:|:-------------------------:
 4. **Pawn Promotion**: Automatically prompts for pawn promotion when a pawn reaches the last rank.
+
+![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-5.png)|  ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-6.png)
+:-------------------------:|:-------------------------:
 5. **Mouse Hover Highlighting**: Highlights the square under the mouse cursor.
 6. **Undo Move**: Press 'Z' to undo the last move.
 7. **Check Highlighting**: Highlights the king's square when in check.
+
+![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-4.png)|  ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-15.png)
+:-------------------------:|:-------------------------:
 8. **Board Reset**: Press 'R' to reset the board to the initial position.
 9. **Castling**: Supports castling for both kingside and queenside.
+
+![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-7.png)|  ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-8.png)
+:-------------------------:|:-------------------------:
 10. **En Passant**: Implements the en passant rule.
+
+![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-9.png)|  ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-16.png)
+:-------------------------:|:-------------------------:
 
 ## Installation
 1. **Clone the repository**
@@ -60,11 +77,14 @@ Thanks to the Pygame community for providing an easy-to-use framework for game d
 
 
 
-![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-3.png)
+
 ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-4.png)
 ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-5.png)
 ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-6.png)
 ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-7.png)
 ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-8.png)
 ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-9.png)
+
+
+
 
