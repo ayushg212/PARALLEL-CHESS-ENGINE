@@ -43,6 +43,8 @@ This is a chess application built using Python and Pygame. It features both mult
 
 ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-9.png)|  ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-16.png)
 :-------------------------:|:-------------------------:
+11. **Move Animation**: Adds smooth animations for piece movements.
+
 
 ## Installation
 1. **Clone the repository**
@@ -74,16 +76,6 @@ The computer moves are generated using the Minimax algorithm, enhanced with the 
    
 ## Acknowledgements
 Thanks to the Pygame community for providing an easy-to-use framework for game development.
-
-
-
-
-![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-4.png)
-![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-5.png)
-![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-6.png)
-![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-7.png)
-![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-8.png)
-![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-9.png)
 
 
 
