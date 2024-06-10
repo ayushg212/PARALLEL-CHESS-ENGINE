@@ -47,7 +47,7 @@ This is a chess application built using Python and Pygame. It features both mult
 ## Installation
 1. **Clone the repository**
     ```sh
-    git clone [https://github.com/yourusername/chess-pygame.git](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE.git)
+    git clone https://github.com/ayushg212/PARALLEL-CHESS-ENGINE.git
     cd PARALLEL-CHESS-ENGINE
     ```
 2. **Install the dependencies**
