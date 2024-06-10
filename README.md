@@ -52,6 +52,15 @@ This is a chess application built using Python and Pygame. It features both mult
 11. **Move Animation**: Adds smooth animations for piece movements.
 
 
+## Computer Move Generation
+The computer moves are generated using the Minimax algorithm, enhanced with the following techniques:
+
+1. **Alpha-Beta Pruning**: Reduces the number of nodes evaluated by the Minimax algorithm.
+2. **Move Ordering**: Improves the efficiency of Alpha-Beta Pruning by evaluating the best moves first.
+3. **Beam Search**: Limits the number of moves considered at each depth level to optimize performance.
+4. **Parallel Processing**: Utilizes the multiprocessing library to evaluate moves in parallel, speeding up the computation.
+
+
 ## Installation
 1. **Clone the repository**
     ```sh
@@ -69,15 +78,7 @@ To start the application, run the following command:
 python chessUIandMainFIle.py
 ```
 
-
-## Computer Move Generation
-The computer moves are generated using the Minimax algorithm, enhanced with the following techniques:
-
-1. **Alpha-Beta Pruning**: Reduces the number of nodes evaluated by the Minimax algorithm.
-2. **Move Ordering**: Improves the efficiency of Alpha-Beta Pruning by evaluating the best moves first.
-3. **Beam Search**: Limits the number of moves considered at each depth level to optimize performance.
-4. **Parallel Processing**: Utilizes the multiprocessing library to evaluate moves in parallel, speeding up the computation.
-   
+ 
 ## Acknowledgements
 Thanks to the Pygame community for providing an easy-to-use framework for game development.
 
