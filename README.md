@@ -4,9 +4,9 @@
 - [Introduction](#introduction)
 -  [Game Modes](#game-modes)
 - [Features](#features)
+- [Computer Move Generation](#computer-move-generation)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Computer Move Generation](#computer-move-generation)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
