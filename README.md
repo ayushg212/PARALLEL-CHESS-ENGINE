@@ -7,8 +7,6 @@
 - [Usage](#usage)
 - [Game Modes](#game-modes)
 - [Computer Move Generation](#computer-move-generation)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
