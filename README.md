@@ -11,7 +11,7 @@
 
 ## Introduction
 This is a chess application built using Python and Pygame. It features both multiplayer mode and a mode to play against the computer. The application includes various functionalities to enhance the user experience, such as move highlighting, undo move, and more.
-![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image.png) |![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-1.png)
+![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image.png) |![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-11.png)
 :-------------------------:|:-------------------------:
 ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-2.png)|![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-10.png)
 
@@ -58,7 +58,7 @@ This is a chess application built using Python and Pygame. It features both mult
 ## Usage
 To start the application, run the following command:
 ```sh
-python chessUIandMainFIle.py.
+python chessUIandMainFIle.py
 ```
 ## Game Modes
 1. **Multiplayer Mode**: Allows two players to play against each other on the same device.
