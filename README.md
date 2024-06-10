@@ -11,7 +11,9 @@
 
 ## Introduction
 This is a chess application built using Python and Pygame. It features both multiplayer mode and a mode to play against the computer. The application includes various functionalities to enhance the user experience, such as move highlighting, undo move, and more.
-
+Menu Page            |  Choice Selection
+:-------------------------:|:-------------------------:
+![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image.png) | ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-1.png)
 ## Features
 1. **Piece Move Highlighting**: Highlights all possible moves for a selected piece.
 2. **Last Move Highlighting**: Highlights the last move made on the board.
@@ -54,8 +56,7 @@ The computer moves are generated using the Minimax algorithm, enhanced with the 
 ## Acknowledgements
 Thanks to the Pygame community for providing an easy-to-use framework for game development.
 
-![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image.png)
-![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-1.png)
+
 ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-2.png)
 ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-3.png)
 ![alt text](https://github.com/ayushg212/PARALLEL-CHESS-ENGINE/blob/main/Screenshots/image-4.png)
