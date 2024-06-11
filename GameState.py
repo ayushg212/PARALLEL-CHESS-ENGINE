@@ -35,6 +35,7 @@ class GameState():
 
 
     def makeMove(self, move):
+        assert self.board[move.endRow][move.endCol][1] != 'K'
         self.board[move.startRow][move.startCol] = "--"
         self.board[move.endRow][move.endCol] = move.pieceMoved
         self.movelog.append(move)  #log the move so that we can undo the move later

@@ -8,7 +8,6 @@ class Move():
         self.endCol = endSq[1]
         self.pieceMoved = board[self.startRow][self.startCol]
         self.pieceCaptured = board[self.endRow][self.endCol]
-        assert self.pieceCaptured[1] != 'K'
         self.enPassant = enPassant
         self.isCastleMove = isCastleMove
         self.pawnPromotion = pawnPromotion
