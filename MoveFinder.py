@@ -239,10 +239,11 @@ def findMoveScoreMinMaxAlphaBeta(gs, depth, alpha = -CHECKMATE , beta = CHECKMAT
         scoreWithIndex.sort()
     # beam search
     n = len(validMoves)
-    if n > 20:
-        n = (n+4)//5 # only best 20% of child are going to be searched
-    elif 5<=n<=20:
-        n = 4
+    n = min(8,n)
+    # if n > 20:
+    #     n = (n+4)//5 # only best 20% of child are going to be searched
+    # elif 5<=n<=20:
+    #     n = 4
     bestScore = -CHECKMATE if gs.whiteToMove else CHECKMATE
     for i in range(0,n):
         gs.makeMove(validMoves[scoreWithIndex[i][1]])
