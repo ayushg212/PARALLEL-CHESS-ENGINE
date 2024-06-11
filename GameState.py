@@ -441,14 +441,20 @@ class GameState():
     def getKingMoves(self, r , c, moves):
         disp = [ (-1,-1) , (-1,0) , (-1,1) , (0,-1) , (0,1) , (1,-1) , (1,0) , (1,1) ]
         kingColor = self.board[r][c][0]
+        piece = self.board[r][c]
+        self.board[r][c] = '--'
+        toadd = []
         for d in disp:
             endRow = r + d[0]
             endCol = c + d[1]
-            if endRow<0 or endRow>7 or endCol<0 or endCol>7 or self.board[endRow][endCol][0]==self.board[r][c][0]:
+            if endRow<0 or endRow>7 or endCol<0 or endCol>7 or self.board[endRow][endCol][0]==kingColor:
                 continue
             else:
                 if not self.isSquareUnderAtteck(endRow, endCol):
-                    moves.append(Move((r,c), (endRow,endCol), self.board))
+                    toadd.append((endRow,endCol))
+        self.board[r][c] = piece
+        for (endRow,endCol) in toadd:
+            moves.append(Move((r,c), (endRow,endCol), self.board))
         self.getCastleMoves(r, c, moves)
 
     """
