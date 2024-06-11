@@ -260,26 +260,6 @@ def findMoveScoreMinMaxAlphaBeta(gs, depth, alpha = -CHECKMATE , beta = CHECKMAT
                 break
     return bestScore
 
-    global nextMove
-    if depth == 0:
-        return turnMultiplier * scoreBoard(gs)
-    validmoves = gs.getValidMoves()
-    random.shuffle(validmoves)
-    maxScore = -CHECKMATE
-    for move in validmoves:
-        gs.makeMove(move)
-        score = -findMoveScoreNegaMaxAlphaBeta(gs, depth-1, -beta, -alpha, -turnMultiplier)
-        gs.undoMove()
-        if score > maxScore:
-            maxScore = score
-            if depth == DEPTH:
-                nextMove = move
-        if maxScore > alpha:
-            alpha = maxScore
-        if alpha >= beta:
-            break
-    return maxScore
-
 
 def scoreBoard(gs):
     if gs.checkMate:
