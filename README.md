@@ -78,6 +78,7 @@ To start the application, run the following command:
 python chessUIandMainFIle.py
 ```
 
+
  
 ## Acknowledgements
 Thanks to the Pygame community for providing an easy-to-use framework for game development.
