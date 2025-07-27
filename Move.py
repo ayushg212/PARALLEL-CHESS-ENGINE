@@ -1,5 +1,6 @@
 
 
+
 class Move():
     def __init__(self, startSq, endSq, board, enPassant=False, pawnPromotion=False , isCastleMove = False , promotedPiece = None):
         self.startRow = startSq[0]
