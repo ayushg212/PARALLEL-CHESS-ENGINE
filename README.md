@@ -1,4 +1,4 @@
-# Parallel Chess Engine with Pygame
+# Parallel Chess Engine  with Pygame
 
 ## Table of Contents
 - [Introduction](#introduction)
