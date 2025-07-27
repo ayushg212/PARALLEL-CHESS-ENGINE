@@ -4,6 +4,7 @@ import copy
 from Move import Move
 from CastleRights import CastleRights
 
+
 class GameState():
     def __init__(self):
         self.board = array(
